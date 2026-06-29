@@ -28,3 +28,13 @@ Suggested filenames used by the HTML pages:
 - `assets/volunteering/uwindsor-sos.svg`
 
 To replace any placeholder, keep the same filename and overwrite the file with your final image.
+
+## Imported from old_assets
+
+- `assets/projects/fsae-bms-board.png`
+- `assets/projects/eis-hardware-board.png`
+- `assets/projects/buck-converter-board.png`
+- `assets/projects/buck-converter-model.png`
+- `assets/experience/battery-algorithms-brand.png`
+- `assets/experience/state-estimation-pack.jpg`
+- `assets/experience/quality-branding.png`
