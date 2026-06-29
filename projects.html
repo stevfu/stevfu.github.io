@@ -1,0 +1,120 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Projects | Steven Fung</title>
+    <meta
+      name="description"
+      content="Projects by Steven Fung across EV batteries, controls, and power electronics."
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;700&family=Newsreader:opsz,wght@6..72,500&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body class="subpage">
+    <div class="bg-grid" aria-hidden="true"></div>
+
+    <header class="site-header">
+      <p class="eyebrow">Projects</p>
+      <h1>Project Portfolio</h1>
+      <p class="tagline">Selected engineering projects with system-level impact.</p>
+      <nav class="nav-links" aria-label="Primary">
+        <a href="index.html">Home</a>
+        <a href="projects.html">Projects</a>
+        <a href="experience.html">Experience</a>
+        <a href="volunteering.html">Volunteering</a>
+      </nav>
+    </header>
+
+    <main>
+      <section id="fsae" class="card reveal">
+        <h2>FSAE EV Accumulator</h2>
+        <p class="meta">Role: Accumulator (Battery) Electrical Lead | Aug 2023 - Sep 2025</p>
+        <img class="content-image" src="assets/projects/fsae.svg" alt="FSAE battery pack project photo" />
+        <p>
+          Led electrical design and integration for a 470V accumulator pack with over 500
+          cells across 6 modules for the UWindsor FSAE EV platform.
+        </p>
+        <ul class="key-points">
+          <li>Coordinated module sizing and interface requirements across teams.</li>
+          <li>Revised precharge board design and improved robustness for race use.</li>
+          <li>Led custom modular BMS development using TI BQ796xx + C2000 controllers.</li>
+        </ul>
+      </section>
+
+      <section id="cav" class="card reveal">
+        <h2>Connected Autonomous Vehicles (CACC-RL)</h2>
+        <p class="meta">Role: Research Assistant | Jun 2024 - Aug 2025</p>
+        <img class="content-image" src="assets/projects/cav.svg" alt="Connected autonomous vehicle simulation screenshot" />
+        <p>
+          Built and evaluated RL-driven cooperative active cruise control environments using
+          traffic data and custom training loops.
+        </p>
+        <ul class="key-points">
+          <li>Developed custom Gymnasium environment for single-agent follower control.</li>
+          <li>Extended to multi-agent scenarios with PettingZoo.</li>
+          <li>Tested TD3-based policies for headway stability and training efficiency.</li>
+        </ul>
+        <p><a href="https://github.com/stevfu/CACC-RL">GitHub: CACC-RL</a></p>
+      </section>
+
+      <section id="eis" class="card reveal">
+        <h2>Electrochemical Impedance Spectroscopy Capstone</h2>
+        <p class="meta">Role: Project Member | Jan 2025 - Jul 2025</p>
+        <img class="content-image" src="assets/projects/eis.svg" alt="EIS capstone hardware and data plots" />
+        <p>
+          Co-developed a portable EIS workflow to detect foreign substances in beverages,
+          integrating embedded firmware, hardware design, and signal analysis.
+        </p>
+        <ul class="key-points">
+          <li>Adapted open-source potentiostat architecture for the project use case.</li>
+          <li>Modified ESP32 acquisition flow for wireless data transfer and processing.</li>
+          <li>Validated measurement quality using Nyquist analysis and model fitting.</li>
+        </ul>
+        <p><a href="https://github.com/stevfu/eis_capstone">GitHub: eis_capstone</a></p>
+      </section>
+
+      <section id="buck" class="card reveal">
+        <h2>Buck Converter With Active Control</h2>
+        <p class="meta">Role: Project Member | Apr 2025</p>
+        <img class="content-image" src="assets/projects/buck-converter.svg" alt="Buck converter board and simulation results" />
+        <p>
+          Designed, simulated, fabricated, and tested a unidirectional buck converter with
+          active filtering and PI/PID-based control.
+        </p>
+        <ul class="key-points">
+          <li>Modeled transient behavior and controller response in Simscape Electrical.</li>
+          <li>Selected and sized PCB components to power and thermal constraints.</li>
+          <li>Hand-soldered and debugged board-level issues through validation testing.</li>
+        </ul>
+        <p><a href="https://github.com/stevfu/elec4450-project">GitHub: elec4450-project</a></p>
+      </section>
+
+      <section id="thermal" class="card reveal">
+        <h2>Thermal Modelling and Cooling Solutions for Induction Motors</h2>
+        <p class="meta">Role: Research Assistant | Feb 2022 - May 2024</p>
+        <img class="content-image" src="assets/projects/thermal-modelling.svg" alt="Thermal modelling setup for induction motor research" />
+        <p>
+          Supported a novel EV motor rotor research setup through design support,
+          procurement, and experimental infrastructure planning.
+        </p>
+        <ul class="key-points">
+          <li>Performed literature review on rotor/stator thermal behavior.</li>
+          <li>Sourced motors, bearings, mounts, and instrumentation components.</li>
+          <li>Modeled mounting systems in CATIA V5 for repeatable test setup integration.</li>
+        </ul>
+      </section>
+    </main>
+
+    <footer>
+      <p>© <span id="year"></span> Steven Fung</p>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>

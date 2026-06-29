@@ -1,0 +1,12 @@
+﻿<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="675" viewBox="0 0 1200 675" role="img" aria-label="EIS Capstone Image">
+  <defs>
+    <linearGradient id="g" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#ffe1cc"/>
+      <stop offset="100%" stop-color="#f6d68f"/>
+    </linearGradient>
+  </defs>
+  <rect width="1200" height="675" fill="url(#g)"/>
+  <rect x="34" y="34" width="1132" height="607" rx="22" fill="#fffaf2" stroke="#2a2a2a" stroke-width="4" stroke-dasharray="10 8"/>
+  <text x="600" y="320" text-anchor="middle" font-family="Segoe UI, Arial, sans-serif" font-size="54" fill="#2b2b2b">EIS Capstone Image</text>
+  <text x="600" y="380" text-anchor="middle" font-family="Segoe UI, Arial, sans-serif" font-size="26" fill="#6b4d3f">Replace this file with your final image</text>
+</svg>
