@@ -22,11 +22,13 @@
     <header class="site-header">
       <p class="eyebrow">Projects</p>
       <h1>Project Portfolio</h1>
-      <p class="tagline">Selected engineering projects with system-level impact.</p>
+      <p class="tagline">Some of my proudest engineering projects.</p>
       <nav class="nav-links" aria-label="Primary">
         <a href="index.html">Home</a>
-        <a href="projects.html">Projects</a>
+        <a href="#about">About</a>
+        <a href="#Topics of Interest">Topics of Interest</a>
         <a href="experience.html">Experience</a>
+        <a href="projects.html">Projects</a>
         <a href="volunteering.html">Volunteering</a>
       </nav>
     </header>
@@ -34,17 +36,59 @@
     <main>
       <section id="fsae" class="card reveal">
         <h2>FSAE EV Accumulator</h2>
-        <p class="meta">Role: Accumulator (Battery) Electrical Lead | Aug 2023 - Sep 2025</p>
+        <p class="meta"><b>Role:</b> Battery Electrical Lead <br> <b>Duration: </b>Aug 2023 - Sep 2025</p>
         <img class="content-image" src="assets/projects/fsae-battery-pack.jpg" alt="FSAE EV battery pack assembly" />
-        <p>
-          Led electrical design and integration for a 470V accumulator pack with over 500
-          cells across 6 modules for the UWindsor FSAE EV platform.
+
+        <p><strong> Skills: </strong>
+           Schematic Capture, PCB Design, Embedded Systems, HV Safety and Wiring, EV Battery Architecture, Soldering, Battery Simulation and Modelling
         </p>
-        <ul class="key-points">
-          <li>Coordinated module sizing and interface requirements across teams.</li>
-          <li>Revised precharge board design and improved robustness for race use.</li>
-          <li>Led custom modular BMS development using TI BQ796xx + C2000 controllers.</li>
-        </ul>
+
+        <p><strong> Tools: </strong> 
+          Altium, MATLAB, Simulink, TI C2000 Microcontrollers, C
+        </p>
+
+        <p><strong> Goal: </strong> 
+          To develop a fully-functioning battery pack for the 2025 UWindsor FSAE EV car
+        </p>
+        
+        <p><strong>Deliverables: </strong></p>
+          <ul class="key-points">
+            <li>Manufacture a 470V battery pack, containing over 500 cells within 6 modules
+              <ul>
+                <li>Finalized cell and module configurations, specifications and sizings to meet requirements from other teams  </li>
+                <li>Created HV harnesses to facilitate module connections by cutting and crimping HV wires, and used Surloks to ensure safe connections</li>
+              </ul>
+            </li>
+            <li>Fabricate systems needed for cooperation between the battery and powertrain components
+              <ul>
+                <li> Revised our team's precharge board for a more robust use case</li>
+              </ul>
+            </li>
+            <li>Design our own custom moduler BMS
+              <ul>
+                <li>Performed schematic capture for boards that utilized the TI BQ796xx chipset for our custom BMS PCBs</li>
+                <li> Utilized a TI C2000 microcontroller to control peripherals in BMS using SPI</li>
+              </ul>
+            </li>
+            <li>Generate high-level simulations and models to predict system behavior
+              <ul>
+                <li> Executed RPT tests to solve for cell model parameters </li>
+                <li> Initiated the development of a system-wide Simulink model to predict faults, performance and changes in architecture</li>
+              </ul>
+            </li>
+            <li> Lead a team of over 15 students with varying levels of experience 
+              <ul>
+                <li> Defined project scope and deadlines, and taught the fundamentals</li>
+                <li> Provided professional development, such as mock interviews and mock reviews </li>
+              </ul>
+            </li>
+          </ul>
+        <p><strong>What I've Learned</strong></p>
+          <ul class="key-points">
+            <li>FSAE provided me with an opportunity to gain insight into all the steps within the product design process, starting from simulation and ending with hands-on manufacturing, and this type of experience is hard to come by</li>
+            <li>All designs should start with a simulation or schematic, and all parts of these initial documents should be scrutinized until all potential problems are fixed </li>
+            <li>Managing an engineering design project with a scope akin to this requires a heavy time commitment that will be taken from other initiatives: commitment is key, but overcommitment is dangerous</li>
+          </ul>
       </section>
 
       <section id="cav" class="card reveal">
