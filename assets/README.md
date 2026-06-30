@@ -32,9 +32,16 @@ To replace any placeholder, keep the same filename and overwrite the file with y
 ## Imported from old_assets
 
 - `assets/projects/fsae-bms-board.png`
+- `assets/projects/fsae-battery-pack.jpg`
 - `assets/projects/eis-hardware-board.png`
 - `assets/projects/buck-converter-board.png`
 - `assets/projects/buck-converter-model.png`
 - `assets/experience/battery-algorithms-brand.png`
+- `assets/experience/lucid-logo.jpg`
 - `assets/experience/state-estimation-pack.jpg`
 - `assets/experience/quality-branding.png`
+- `assets/volunteering/ossc-group.jpg`
+- `assets/volunteering/os-mentor-booth.png`
+- `assets/volunteering/uw-eng-logo.jpg`
+- `assets/volunteering/sending-sunshine-logo.png`
+- `assets/volunteering/uwindsor-sos-logo.png`
